@@ -1,0 +1,15 @@
+Package: vim
+Version: 9.0-1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/vim
+SourceName: vim
+License: Vim
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1720607829
+CPE-ID: cpe:/a:vim:vim
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 510345
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)

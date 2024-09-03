@@ -1,0 +1,12 @@
+Package: brcmfmac-nvram-43430-sdio
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-nvram-43430-sdio
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 1393
+Description:  Broadcom BCM43430 SDIO NVRAM

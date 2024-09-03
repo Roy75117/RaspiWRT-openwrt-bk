@@ -1,0 +1,11 @@
+Package: tree
+Version: 2.1.1-1
+Depends: libc, libgcc1
+Source: feeds/packages/utils/tree
+SourceName: tree
+Section: utils
+SourceDateEpoch: 1693634931
+Maintainer: Banglang Huang <banglang.huang@foxmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 24948
+Description:  List contents of directories in a tree-like format

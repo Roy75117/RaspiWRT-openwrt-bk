@@ -1,0 +1,12 @@
+Package: luci-app-adblock-fast
+Version: 1.1.2
+Depends: libc, luci-base, adblock-fast, jsonfilter
+Source: feeds/luci/applications/luci-app-adblock-fast
+SourceName: luci-app-adblock-fast
+License: AGPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1724955702
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8631
+Description:  Provides Web UI for adblock-fast service.

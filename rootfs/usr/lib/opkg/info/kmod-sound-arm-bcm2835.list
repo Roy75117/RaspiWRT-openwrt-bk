@@ -1,0 +1,2 @@
+/etc/modules.d/68-sound-arm-bcm2835
+/lib/modules/5.15.134/snd-bcm2835.ko

@@ -1,0 +1,15 @@
+Package: jansson4
+Version: 2.14-3
+Depends: libc
+Provides: jansson
+Source: feeds/base/package/libs/jansson
+SourceName: jansson
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 4
+CPE-ID: cpe:/a:jansson_project:jansson
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 19596
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data

@@ -1,0 +1,15 @@
+Package: f2fsck
+Version: 1.16.0-1
+Depends: libc, libf2fs6
+Conflicts: f2fsck-selinux
+Source: feeds/base/package/utils/f2fs-tools
+SourceName: f2fsck
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1684490834
+CPE-ID: cpe:/a:f2fs-tools_project:f2fs-tools
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 89639
+Description:  Utility for checking/repairing a Flash-Friendly File System (F2FS)

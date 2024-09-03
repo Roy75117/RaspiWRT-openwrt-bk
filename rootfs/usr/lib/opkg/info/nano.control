@@ -1,0 +1,20 @@
+Package: nano
+Version: 8.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/nano
+SourceName: nano
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1722188709
+CPE-ID: cpe:/a:gnu:nano
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 67457
+Description:  Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.

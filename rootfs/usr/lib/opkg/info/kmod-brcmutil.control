@@ -1,0 +1,11 @@
+Package: kmod-brcmutil
+Version: 5.15.134+6.1.24-3
+Depends: kernel (=5.15.134-1-81d76c076a3bbb1ad06cf0d445055897)
+Source: package/kernel/mac80211
+SourceName: kmod-brcmutil
+Section: kernel
+SourceDateEpoch: 1695048745
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 4095
+Description:  This module contains some common parts needed by Broadcom Wireless drivers brcmsmac and brcmfmac.

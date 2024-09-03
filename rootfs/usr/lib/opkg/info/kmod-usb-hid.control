@@ -1,0 +1,11 @@
+Package: kmod-usb-hid
+Version: 5.15.134-1
+Depends: kernel (=5.15.134-1-81d76c076a3bbb1ad06cf0d445055897), kmod-hid, kmod-hid-generic, kmod-input-evdev, kmod-usb-core
+Source: package/kernel/linux
+SourceName: kmod-usb-hid
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1694890838
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 16341
+Description:  Kernel support for USB HID devices such as keyboards and mice

@@ -1,0 +1,3 @@
+/etc/init.d/adblock-fast
+/etc/config/adblock-fast
+/etc/uci-defaults/90-adblock-fast

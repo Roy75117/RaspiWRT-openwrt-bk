@@ -1,0 +1,15 @@
+Package: openssh-client
+Version: 9.8p1-1
+Depends: libc, libopenssl3, zlib
+Alternatives: 200:/usr/bin/ssh:/usr/libexec/ssh-openssh, 200:/usr/bin/scp:/usr/libexec/scp-openssh
+Source: feeds/packages/net/openssh
+SourceName: openssh-client
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1720125352
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 448938
+Description:  OpenSSH client.

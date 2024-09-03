@@ -1,0 +1,15 @@
+Package: libstdcpp6
+Version: 12.3.0-4
+Provides: libstdcpp
+Source: package/libs/toolchain
+SourceName: libstdcpp
+License: GPL-3.0-with-GCC-exception
+Section: libs
+SourceDateEpoch: 1648814098
+ABIVersion: 6
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 522672
+Description:  GNU Standard C++ Library v3

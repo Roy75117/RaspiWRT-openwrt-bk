@@ -1,0 +1,12 @@
+{
+	"model": {
+		"id": "raspberrypi,model-b",
+		"name": "Raspberry Pi Model B Rev 2"
+	},
+	"network": {
+		"lan": {
+			"device": "eth0",
+			"protocol": "static"
+		}
+	}
+}

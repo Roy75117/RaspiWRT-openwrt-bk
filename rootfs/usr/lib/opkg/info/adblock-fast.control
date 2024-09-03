@@ -1,0 +1,16 @@
+Package: adblock-fast
+Version: 1.1.2-3
+Depends: libc, jshn, curl
+Conflicts: simple-adblock
+Provides: simple-adblock
+Source: feeds/packages/net/adblock-fast
+SourceName: adblock-fast
+License: AGPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1722937085
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: all
+Installed-Size: 17775
+Description:  Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
+ Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
+ Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.

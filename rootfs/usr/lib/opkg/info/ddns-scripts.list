@@ -1,0 +1,8 @@
+/usr/lib/ddns/dynamic_dns_updater.sh
+/usr/bin/ddns
+/etc/init.d/ddns
+/etc/hotplug.d/iface/95-ddns
+/etc/config/ddns
+/usr/lib/ddns/dynamic_dns_functions.sh
+/usr/share/ddns/version
+/usr/lib/ddns/dynamic_dns_lucihelper.sh

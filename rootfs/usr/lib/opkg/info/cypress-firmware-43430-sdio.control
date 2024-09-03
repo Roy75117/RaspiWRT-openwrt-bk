@@ -1,0 +1,14 @@
+Package: cypress-firmware-43430-sdio
+Version: 5.10.9-2022_0909-1
+Depends: libc
+Conflicts: brcmfmac-firmware-43430-sdio
+Provides: brcmfmac-firmware-43430-sdio
+Source: feeds/base/package/firmware/cypress-firmware
+SourceName: cypress-firmware-43430-sdio
+LicenseFiles: LICENCE
+Section: firmware
+SourceDateEpoch: 1668699835
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 266601
+Description:  CYW43430 FullMac SDIO firmware

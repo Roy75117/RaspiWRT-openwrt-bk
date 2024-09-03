@@ -1,0 +1,15 @@
+Package: libjpeg-turbo
+Version: 2.1.4-2
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1720286899
+CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 81492
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.

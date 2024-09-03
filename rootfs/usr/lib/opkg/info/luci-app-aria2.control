@@ -1,0 +1,12 @@
+Package: luci-app-aria2
+Version: git-21.321.27401-9dda104
+Depends: libc, aria2
+Source: feeds/luci/applications/luci-app-aria2
+SourceName: luci-app-aria2
+License: MIT
+Section: luci
+SourceDateEpoch: 1724955702
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8406
+Description:  LuCI Support for Aria2

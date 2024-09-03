@@ -1,0 +1,3 @@
+/etc/modules.d/09-crypto-sha512
+/lib/modules/5.15.134/sha512-arm.ko
+/lib/modules/5.15.134/sha512_generic.ko

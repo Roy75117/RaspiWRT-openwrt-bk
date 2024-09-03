@@ -1,0 +1,16 @@
+Package: aria2
+Version: 1.36.0-2
+Depends: libc, zlib, libstdcpp6, libopenssl3
+Source: feeds/packages/net/aria2
+SourceName: aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+SourceDateEpoch: 1680935934
+CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 561663
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility

@@ -1,0 +1,10 @@
+# ~/.profile: executed by the command interpreter for login shells.
+PS1='\[\033[01;31m\]\t\[\033[00m\][$?]\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;34m\]\w \$\[\033[00m\] '
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -lh'
+alias cls='clear'
+alias ps='ps -ef'
+alias port_check='sudo lsof -i -P -n | grep LISTEN'
+alias cpu_temp='sed "s/\(...\)$/.\1°C/" < /sys/class/thermal/thermal_zone0/temp'
+#alias cpu_temp='echo "scale=1; $(cat /sys/class/thermal/thermal_zone0/temp)/1000" | bc'

@@ -1,0 +1,11 @@
+Package: luci-app-sshtunnel
+Version: 1.1.0
+Depends: libc, luci-base, sshtunnel
+Source: feeds/luci/applications/luci-app-sshtunnel
+SourceName: luci-app-sshtunnel
+Section: luci
+SourceDateEpoch: 1715877520
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4496
+Description:  LuCI support for SSH Tunnels (sshtunnel package)

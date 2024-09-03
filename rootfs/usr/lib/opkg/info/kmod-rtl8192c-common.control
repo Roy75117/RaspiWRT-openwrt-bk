@@ -1,0 +1,11 @@
+Package: kmod-rtl8192c-common
+Version: 5.15.134+6.1.24-3
+Depends: kernel (=5.15.134-1-81d76c076a3bbb1ad06cf0d445055897), kmod-rtlwifi
+Source: package/kernel/mac80211
+SourceName: kmod-rtl8192c-common
+Section: kernel
+SourceDateEpoch: 1695048745
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 18666
+Description:  Realtek RTL8192CE/RTL8192CU common support module

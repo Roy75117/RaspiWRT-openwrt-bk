@@ -1,0 +1,10 @@
+Package: bcm27xx-gpu-fw
+Version: 2022-05-16-3673be308132de102fdff491d1333d9d0f823557
+Depends: libc
+Source: package/kernel/bcm27xx-gpu-fw
+SourceName: bcm27xx-gpu-fw
+Section: boot
+SourceDateEpoch: 1652793082
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 96
+Description:  GPU and kernel boot firmware for bcm27xx.

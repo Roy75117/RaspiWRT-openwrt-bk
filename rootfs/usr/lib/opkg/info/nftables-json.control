@@ -1,0 +1,13 @@
+Package: nftables-json
+Version: 1.0.8-1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+Source: feeds/base/package/network/utils/nftables
+SourceName: nftables-json
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1689833051
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 285093
+Description:  nftables userspace utility with JSON support

@@ -1,0 +1,2 @@
+/etc/modules.d/rtlwifi-usb
+/lib/modules/5.15.134/rtl_usb.ko

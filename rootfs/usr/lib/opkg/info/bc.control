@@ -1,0 +1,15 @@
+Package: bc
+Version: 1.06.95-1
+Depends: libc, libreadline8, libncurses6
+Source: feeds/packages/utils/bc
+SourceName: bc
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1720286899
+CPE-ID: cpe:/a:gnu:bc
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 31862
+Description:  bc is a language that supports arbitrary precision numbers with
+ interactive execution of statements.

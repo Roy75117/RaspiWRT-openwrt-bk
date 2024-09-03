@@ -1,0 +1,9 @@
+	#!/bin/sh
+	# check if we are on real system
+	if [ -z "${IPKG_INSTROOT}" ]; then
+		echo -n "Stopping adblock-fast service... "
+		{ /etc/init.d/adblock-fast stop && /etc/init.d/adblock-fast killcache; } >/dev/null 2>&1 && echo "OK" || echo "FAIL"
+		echo -n "Removing rc.d symlink for adblock-fast... "
+		/etc/init.d/adblock-fast disable >/dev/null 2>&1 && echo "OK" || echo "FAIL"
+	fi
+	exit 0

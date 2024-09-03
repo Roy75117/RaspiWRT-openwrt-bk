@@ -1,0 +1,13 @@
+Package: dropbearconvert
+Version: 2022.82-5
+Depends: libc
+Source: package/network/services/dropbear
+SourceName: dropbearconvert
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: utils
+SourceDateEpoch: 1690372852
+CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 23145
+Description:  Utility for converting SSH keys

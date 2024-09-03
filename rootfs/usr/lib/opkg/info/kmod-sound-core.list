@@ -1,0 +1,12 @@
+/lib/modules/5.15.134/snd-pcm-dmaengine.ko
+/lib/modules/5.15.134/snd-compress.ko
+/lib/modules/5.15.134/snd.ko
+/lib/modules/5.15.134/snd-pcm-oss.ko
+/lib/modules/5.15.134/snd-timer.ko
+/lib/modules/5.15.134/snd-seq-device.ko
+/etc/modules.d/30-sound-core
+/lib/modules/5.15.134/snd-pcm.ko
+/lib/modules/5.15.134/snd-mixer-oss.ko
+/lib/modules/5.15.134/snd-hwdep.ko
+/lib/modules/5.15.134/snd-rawmidi.ko
+/lib/modules/5.15.134/soundcore.ko
