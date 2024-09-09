@@ -93,6 +93,7 @@ ssh root@192.168.10.1
 
 on RaspiWRT(192.168.10.1) :
 ```shell
+mount -o remount,ro /
 tune2fs -O^resize_inode /dev/mmcblk0p2
 e2fsck -f /dev/mmcblk0p2
 tune2fs -O^resize_inode /dev/mmcblk0p2
