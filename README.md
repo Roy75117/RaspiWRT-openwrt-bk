@@ -302,4 +302,27 @@ Assign http proxy as **http://192.168.10.1:4321** on client side.
 _reference_ : https://blog.thestateofme.com/2022/10/26/socks-proxy-ssh-tunnels-on-openwrt/
 
 
+#### 12. Install alist
+on RaspiWRT(192.168.10.1) :
+``` shell
+sh -c "$(curl -ksS https://raw.githubusercontent.com/sbwml/luci-app-alist/master/install.sh)"
+```
+This script will detect your prefered language, locale and CPU architechture, then install the following ipks.
+
+It will take about 40~50MB storage for installation.
+
+1. alist*.ipk
+2. luci-app-alist*.ipk
+3. luci-i18n*.ipk
+
+on PC :
+``` shell
+scp ./rootfs/etc/config/alist root@192.168.10.1:/etc/config
+```
+the config file set access port as **8080** and lan access only.  Access **http://192.168.10.1:8080** for alist.
+
+Go to _Storage_ tab to setup monunt path first.
+
+_reference_ : https://github.com/sbwml/luci-app-alist/
+
 ### Appedix
