@@ -111,8 +111,8 @@ After **df -h**, you can see your filesystem size is extended.
 
 on RaspiWRT(192.168.10.1) :
 ``` shell
-opkg install block-mount ca-bundle ca-certificates f2fsck fuse-utils glib2 kmod-usb-storage kmod-usb2 dropbearconvert 
-opkg install bzip2 rename rsync sudo tree unzip unrar whereis nano vim lsof curl lua htop luci-theme-material perl bc
+opkg install block-mount ca-bundle ca-certificates f2fsck fuse-utils glib2 kmod-usb-storage kmod-usb2 kmod-usb3 usbutils dropbearconvert
+opkg install bzip2 rename rsync sudo tree unzip unrar whereis nano vim lsof curl lua htop luci-theme-material perl bc 
 chmod +x /etc/freememory.sh
 crontab -e
 ```
