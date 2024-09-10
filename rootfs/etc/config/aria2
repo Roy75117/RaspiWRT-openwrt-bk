@@ -16,5 +16,6 @@ config aria2 'main'
 	option check_certificate 'true'
 	option enable_dht6 'false'
 	option enable_peer_exchange 'true'
+	list extra_settings 'check-certificate=false'
 
 
