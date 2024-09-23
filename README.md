@@ -56,7 +56,7 @@ scp ./rootfs/etc/config/network root@192.168.1.1:/etc/config/
 scp ./rootfs/etc/config/wireless root@192.168.1.1:/etc/config/
 scp ./rootfs/etc/config/system root@192.168.1.1:/etc/config/
 scp ./rootfs/etc/freememory.sh root@192.168.1.1:/etc/
-scp ./profile root@192.168.10.1:~/.profile
+scp ./profile root@192.168.1.1:~/.profile
 reboot
 ```
 
