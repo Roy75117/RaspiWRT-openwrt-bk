@@ -97,7 +97,8 @@ mount -o remount,ro /
 tune2fs -O^resize_inode /dev/mmcblk0p2
 e2fsck -f /dev/mmcblk0p2
 tune2fs -O^resize_inode /dev/mmcblk0p2
-fsck.ext4 /dev/mmcblk0p2 
+fsck.ext4 /dev/mmcblk0p2
+reboot
 resize2fs /dev/mmcblk0p2
 df -h
 ```
@@ -326,3 +327,4 @@ Go to _Storage_ tab to setup monunt path first.
 _reference_ : https://github.com/sbwml/luci-app-alist/
 
 ### Appedix
+
